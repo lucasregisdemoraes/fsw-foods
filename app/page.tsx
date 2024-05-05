@@ -1,14 +1,14 @@
 import Header from "./_components/header";
-
-const home = "";
-
-console.log(home);
+import Search from "./_components/search";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className="px pt-6">
+        <Search />
+      </div>
+    </>
   );
 };
 
